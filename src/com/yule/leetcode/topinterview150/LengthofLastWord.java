@@ -14,7 +14,10 @@ public class LengthofLastWord {
             if(b[i] != 32){
                 len++;
             }else{
-                break;
+                if(len!=0){
+                    break;
+                }
+
             }
         }
 
