@@ -24,9 +24,6 @@ public class IsSubsequence {
                     return false;
                 }
             }
-            if(tStart>tb.length){
-                return false;
-            }
         }
         return true;
     }
